@@ -93,7 +93,7 @@ function renderImages() {
 }
 renderImages();
 //===================================================================//
-function openModal({ preview, original, description }) {
+function openModal({ original, description }) {
   const instance = basicLightbox.create(`
    <div class="modal">
       <img src="${original}" alt="${description}" />
